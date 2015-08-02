@@ -18,7 +18,8 @@ alle ausser CVersion.java.in (also auch CVersion.java löschen, wird durch ant n
 cd ..
 build.xml: Version (svn commit Nr.) anpassen!
 
-ant jar
+ant
+(äquivalent zu ant jar)
 
 cd ..
 in dotar die Versionsnummer anpassen!

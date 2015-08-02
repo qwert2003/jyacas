@@ -10,7 +10,7 @@
   <property name="scripts" location="scripts" />
   <property name="tests" location="tests" />
   <property name="build" location="build" />
-  <property name="dist"  location="dist/lib" />
+  <property name="dist"  location="../dist" />
 
   <fileset dir="/usr/share/java" id="libs">
     <include name="junit4.jar" />

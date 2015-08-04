@@ -1,5 +1,5 @@
 package net.sf.yacas;
 
 class CVersion {
-    static String VERSION = "1.3.6+ (svn r3197)";
+    static String VERSION = "1.3.6+ (svn r3216)";
 }

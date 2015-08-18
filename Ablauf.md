@@ -2,7 +2,7 @@
 
 ### Fetch the current scripts and JavaYacas sources
 
-    cd yacas:
+    cd yacas
 
     ant clean
 (rm -r build)

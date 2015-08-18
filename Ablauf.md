@@ -14,7 +14,10 @@
     cd ../scripts
     svn update
   
-**Versionsnummer** (svn) **notieren**. Git commit Nr. von Webseite holen.
+**Versionsnummer** (svn) **notieren**. Git commit Nr. von Webseite holen, oder:
+
+    svn propget git-commit --revprop -r HEAD
+    
 
 ### Rebuild the jar
 

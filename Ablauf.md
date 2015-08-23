@@ -46,10 +46,17 @@ in dotar allenfalls die Versionsnummer **anpassen**!
 tar -czf dist/yacas-1.3.6+.tar.gz --exclude=.svn yacas/scripts yacas/JavaYacas yacas/build.xml yacas/COPYING
 )
 
+### Test
+
+    cd dist
+    rlwrap java -jar yacas.jar
+
 
 # GitHub
 
 ### Commit
+
+    git status
 
 Version (svn commit Nr. / git commit nr) **anpassen**!
 

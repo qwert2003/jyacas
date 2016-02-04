@@ -1,2 +1,2 @@
 #!/bin/sh
-tar -czf dist/yacas-1.3.6+.tar.gz --exclude=.svn yacas/scripts yacas/JavaYacas yacas/build.xml yacas/COPYING
+tar -czf dist/yacas-1.4.0.tar.gz --exclude=.svn yacas/scripts yacas/JavaYacas yacas/build.xml yacas/COPYING

@@ -27,7 +27,8 @@
 Kontrollieren, dass in scripts diese Dateien gelöscht sind: *Makefile.am*, *maketest*
 
 Kontrollieren, dass in JavaYacas diese Dateien gelöscht sind:
-alle ausser CVersion.java.in (also auch CVersion.java löschen, wird durch ant neu generiert)
+alle ausser CVersion.java.in
+(übrigens net/sf/yacas/CVersion.java wird durch ant neu generiert)
 
 Kontrollieren, dass in JavaYacas das Verzeichnis gelöscht ist: *lib*
 
@@ -43,7 +44,7 @@ in dotar allenfalls die Versionsnummer **anpassen**!
 
     ./dotar
 (oder
-tar -czf dist/yacas-1.4.0+.tar.gz --exclude=.svn yacas/scripts yacas/JavaYacas yacas/build.xml yacas/COPYING
+tar -czf dist/yacas-1.4.2+.tar.gz --exclude=.svn yacas/scripts yacas/JavaYacas yacas/build.xml yacas/COPYING
 )
 
 ### Test
@@ -60,7 +61,7 @@ tar -czf dist/yacas-1.4.0+.tar.gz --exclude=.svn yacas/scripts yacas/JavaYacas y
 
 Version (svn commit Nr. / git commit nr) **anpassen**!
 
-    git commit -a -m 'yacas r3643 (8e035fd)'
+    git commit -a -m 'yacas 1.4.2 r3668 (371f120)'
     
     git push origin master
 

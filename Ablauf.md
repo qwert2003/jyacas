@@ -44,7 +44,7 @@ in dotar allenfalls die Versionsnummer **anpassen**!
 
     ./dotar
 (oder
-tar -czf dist/yacas-1.4.2+.tar.gz --exclude=.svn yacas/scripts yacas/JavaYacas yacas/build.xml yacas/COPYING
+tar -czf dist/yacas-1.5.0+.tar.gz --exclude=.svn yacas/scripts yacas/JavaYacas yacas/build.xml yacas/COPYING
 )
 
 ### Test
@@ -61,7 +61,7 @@ tar -czf dist/yacas-1.4.2+.tar.gz --exclude=.svn yacas/scripts yacas/JavaYacas y
 
 Version (svn commit Nr. / git commit nr) **anpassen**!
 
-    git commit -a -m 'yacas 1.4.2 r3668 (371f120)'
+    git commit -a -m 'yacas 1.5.0 r3914 (2ce27e1)'
     
     git push origin master
 

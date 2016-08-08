@@ -2,7 +2,7 @@
   <description>
     JavaYacas build file
   </description>
-  <property name="version" value="1.4.2" /> <!--value="1.4.2 (svn r3668, git 371f120)"-->
+  <property name="version" value="1.5.0" /> <!--value="1.5.0 (svn r3914, git 2ce27e1)"-->
   <property name="ant.build.javac.source" value="1.7"/>
   <property name="ant.build.javac.target" value="1.7"/>
   <property name="main" value="net.sf.yacas.YacasConsole" />

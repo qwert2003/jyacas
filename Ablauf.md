@@ -1,15 +1,15 @@
 # Ablauf
 
-### Fetch the current scripts and JavaYacas sources
+### Fetch the current scripts and jyacas sources
 
     cd yacas
 
     ant clean
 (rm -r build)
 (rm -r dist)
-(rm JavaYacas/CVersion.java)
+(rm jyacas/CVersion.java)
 
-    cd JavaYacas
+    cd jyacas
     svn update
     cd ../scripts
     svn update
@@ -26,11 +26,11 @@
 
 Kontrollieren, dass in scripts diese Dateien gelöscht sind: *Makefile.am*, *maketest*
 
-Kontrollieren, dass in JavaYacas diese Dateien gelöscht sind:
+Kontrollieren, dass in jyacas diese Dateien gelöscht sind:
 alle ausser CVersion.java.in
 (übrigens net/sf/yacas/CVersion.java wird durch ant neu generiert)
 
-Kontrollieren, dass in JavaYacas das Verzeichnis gelöscht ist: *lib*
+Kontrollieren, dass in jyacas das Verzeichnis gelöscht ist: *lib*
 
     cd ..
 

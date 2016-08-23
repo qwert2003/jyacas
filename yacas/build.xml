@@ -2,7 +2,7 @@
   <description>
     jyacas build file
   </description>
-  <property name="version" value="1.5.0+ (22f4188)"/>
+  <property name="version" value="1.5.0+ (902873b)"/>
   <property name="ant.build.javac.source" value="1.7"/>
   <property name="ant.build.javac.target" value="1.7"/>
   <property name="main" value="net.sf.yacas.YacasConsole" />

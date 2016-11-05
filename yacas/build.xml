@@ -1,12 +1,12 @@
 <project name="jyacas" default="jar" basedir=".">
   <description>
-    JavaYacas build file
+    jacas build file
   </description>
-  <property name="version" value="1.5.0" /> <!--value="1.5.0 (svn r3914, git 2ce27e1)"-->
+  <property name="version" value="1.6.0" /> <!--value="1.6.0 (svn r4112, git cafc5a3)"-->
   <property name="ant.build.javac.source" value="1.7"/>
   <property name="ant.build.javac.target" value="1.7"/>
   <property name="main" value="net.sf.yacas.YacasConsole" />
-  <property name="src" location="JavaYacas" />
+  <property name="src" location="jyacas" />
   <property name="scripts" location="scripts" />
   <property name="tests" location="tests" />
   <property name="build" location="build" />
